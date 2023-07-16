@@ -1,0 +1,104 @@
+.section-skills {
+  flex-direction: column;
+  margin-block: 5rem;
+}
+
+.techno {
+  margin-top: 2rem;
+  justify-content: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+.techno svg {
+  fill: var(--purple-300);
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+
+#react:hover {
+  fill: #00dbfc;
+}
+#cinq {
+  fill: var(--bgDark);
+}
+#html5:hover {
+  #html {
+    fill: #e44d26;
+    #cinq {
+      fill: white;
+    }
+  }
+}
+
+#git:hover {
+  fill: #e44d26;
+  cursor: pointer;
+}
+#css:hover {
+  fill: #1a68c7;
+}
+#javascript:hover {
+  fill: #f7df1e;
+}
+#gitHub:hover {
+  fill: white;
+}
+#sass:hover {
+  fill: #e01059;
+}
+
+#figma:hover {
+  .un {
+    fill: #29b6f6;
+  }
+  .deux {
+    fill: #7c4dff;
+  }
+  .trois {
+    fill: #e64a19;
+  }
+  .quatre {
+    fill: #ff7043;
+  }
+  .cinq {
+    fill: #66bb6a;
+  }
+}
+
+.section-academic {
+  h2 {
+    text-align: center;
+    padding-block: 2.5rem;
+  }
+}
+
+.container-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 1rem;
+    place-content: center;
+    @media (max-width:1048px) {
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+    }
+    .card {
+    border: 1px solid var(--purple-200);
+    border-radius: 1rem;
+    padding: 1.2rem;
+    transition: all .3s ease-out;
+    cursor: pointer;
+    &:hover{
+        background: var(--purple-200);
+    }
+    h3 {
+      margin-bottom: 1rem;
+    }
+    .foot {
+      width: 90%;
+      justify-content: space-between;
+      margin-top: 1rem;
+    }
+  }
+}

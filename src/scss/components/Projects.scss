@@ -1,0 +1,65 @@
+.section-projects {
+    margin-block: 2rem;
+  .head {
+    justify-content: space-between;
+    @media (max-width:935px) {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .buttons {
+      gap: 1rem;
+      button {
+        padding: 0.625rem 1rem;
+        background: none;
+        gap: 0.4rem;
+        border: 1px solid var(--purple-200);
+        border-radius: 16px;
+        transition: all 0.3s ease-out;
+        cursor: pointer;
+        &:hover {
+          background: var(--purple-100);
+        }
+        img {
+          width: 1.5rem;
+          aspect-ratio: 1;
+          object-fit: cover;
+        }
+        span {
+          font-size: 1rem;
+          color: var(--white);
+        }
+      }
+    }
+  }
+  .containerCard {
+    place-content: center;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 314px);
+    grid-template-rows: auto;
+    gap: 1rem;
+    margin-block: 2rem;
+    .contentCard {
+      padding: 1rem;
+      .techs {
+        margin-block: 1rem;
+        gap: 1rem;
+        span {
+          padding: 0.1rem 1rem;
+          border-radius: 8px;
+          &:nth-child(1) {
+            color: var(--green-300);
+            background: var(--green-200);
+          }
+          &:nth-child(2) {
+            color: var(--purple-300);
+            background: var(--purple-100);
+          }
+        }
+      }
+      img {
+        margin: 0 auto;
+        object-fit: cover;
+      }
+    }
+  }
+}

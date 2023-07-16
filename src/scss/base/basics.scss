@@ -1,0 +1,24 @@
+body {
+    background: var(--bgDark);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+a {
+    cursor: pointer;
+}
+
+.avatarsMP {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.social {
+    gap: 1rem;
+    a img {
+        width: 2rem;
+        aspect-ratio: 1;
+        object-fit: cover;
+    }
+} 
+ 

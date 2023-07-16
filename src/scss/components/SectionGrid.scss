@@ -1,0 +1,51 @@
+.section-grid {
+    padding-top: 6rem;
+    .cards {
+        justify-content: space-between;
+        gap: 2rem;
+        width: 50%;
+        margin-inline: auto;
+        @media (max-width: 50em) {
+            width: 80%;
+        }
+        @media (max-width: 530px) {
+            flex-direction: column;
+            width: 100%;
+        }
+        .card {
+            width: 15rem;
+            height: 12.5rem;
+            border-radius: 1rem;
+            border: 1px solid var(--purple-200);
+            text-align: center;
+            padding-top: 3rem;
+            cursor: pointer;
+            flex-direction: column;
+            transition: all .3s ease-in-out;
+            &:hover {
+                background-color: var(--purple-100);
+                border-color: var(--purple-100);
+            }
+            img {
+                width: 4.5rem;
+                height: 4rem;
+            }
+        }
+    }
+    .card-secondary {
+        margin-top: 1rem;
+        border-radius: 1rem;
+        margin-inline: auto;
+        width: 50%;
+        justify-content: space-between;
+        text-align: center;
+        background-color: var(--purple-100); 
+        padding: 1rem 3rem;
+        @media (max-width: 50em) {
+            width: 80%;
+        }
+        @media (max-width: 530px) {
+            display: none;
+        }  
+    }
+}

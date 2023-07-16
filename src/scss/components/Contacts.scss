@@ -1,0 +1,35 @@
+.section-contacts{
+    h2 {
+        margin-block: 2rem;
+    }
+    margin-block: 5rem;
+    .flex {
+        align-items: stretch;
+        gap: 1rem;
+        input{
+            background: none;
+            padding: .5rem 1rem;
+            color: var(--gray-200);
+            outline: none;
+            border: 1px solid var(--purple-300);
+            border-radius: 8px;
+        }
+        button {
+            border-radius: 8px;
+            border: none;
+            background: var(--purple-300);
+            padding: .5rem;
+            cursor: pointer;
+            transition: all .3s ease-out;
+            &:hover{
+                background: var(--purple-200);
+            }
+            svg {
+                stroke: var(--white);
+                width: 24px;
+                height: 24px;
+            }
+        }
+    }
+    
+}

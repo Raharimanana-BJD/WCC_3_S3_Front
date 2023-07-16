@@ -1,0 +1,46 @@
+:root {
+  // colors
+  --purple-300: #7b4ae2;
+  --purple-200: rgba(123, 74, 226, 0.5);
+  --purple-100: rgba(123, 74, 226, 0.1);
+
+  --bgDark: #090e16;
+  --white: #ffffff;
+
+  --gray-200: rgba(255, 255, 255, 0.5);
+
+  --green-200: rgba(74, 226, 144, 0.30);
+  --green-300: #4ae290;
+
+  // font
+
+  --fs-800: 3.25rem;
+  --fs-700: 3rem;
+  --fs-600: 2rem;
+  --fs-500: 1.5rem;
+  --fs-400: 1.25rem;
+  --fs-300: 1.125rem;
+  --fs-200: 1rem;
+  --fs-100: 0.875rem;
+  --fs-000: 0.75rem;
+
+  --fs-body: var(--fs-300);
+  --fs-primary-heading: var(--fs-800);
+  --fs-secondary-heading: var(--fs-600);
+  --fs-other: var(--fs-200);
+  --fs-button: var(--fs-400);
+
+  --fw-bold: 800;
+  --fw-semi-bold: 600;
+  --fw-regular: 400;
+}
+
+@media (max-width: 768px) {
+  :root {
+    --fs-body: var(--fs-100);
+    --fs-primary-heading: var(--fs-500);
+    --fs-secondary-heading: var(--fs-500);
+    --fs-other: var(--fs-000);
+    --fs-button: var(--fs-200);
+  }
+}

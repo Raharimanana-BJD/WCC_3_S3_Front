@@ -1,0 +1,92 @@
+.text-purple-300 {
+  color: var(--purple-300);
+}
+.text-purple-200 {
+  color: var(--purple-200);
+}
+.text-purple-100 {
+  color: var(--purple-100);
+}
+
+.text-bgDark {
+  color: var(--bgDark);
+}
+.text-white {
+  color: var(--white);
+}
+.text-gray-200 {
+  color: var(--gray-200);
+}
+.text-green-300 {
+  color: var(--green-300);
+}
+
+.bg-purple-300 {
+  background: var(--purple-300);
+}
+.bg-purple-200 {
+  background: var(--purple-200);
+}
+.bg-purple-100 {
+  background: var(--purple-100);
+}
+
+.bg-bgDark {
+  background: var(--bgDark);
+}
+.bg-white {
+  background: var(--white);
+}
+.bg-gray-200 {
+  background: var(--gray-200);
+}
+.bg-green-300 {
+  background: var(--green-300);
+}
+
+.fs-body {
+  font-size: var(--fs-body);
+}
+.fs-primary-heading {
+  font-size: var(--fs-primary-heading);
+}
+.fs-secondary-heading {
+  font-size: var(--fs-secondary-heading);
+}
+.fs-other {
+  font-size: var(--fs-other);
+}
+.fs-button {
+  font-size: var(--fs-button);
+}
+
+.fw-bold {
+  font-weight: var(--fw-bold);
+}
+.fw-semi-bold {
+  font-weight: var(--fw-semi-bold);
+}
+.fw-regular {
+  font-weight: var(--fw-regular);
+}
+
+
+.container {
+  --max-width: 1110px;
+  --padding: 1rem;
+  width: min(var(--max-width), 100% - (var(--padding) * 2));
+  margin-inline: auto;
+}
+
+.stickers {
+  background-color: var(--purple-100);
+  font-size: var(--fs-400);
+  width: fit-content;
+ padding: .3rem .6rem;
+ border-radius: 1rem;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.section-about {
+    justify-content: space-between;
+    padding-block: 6rem;
+    gap: 2rem;
+    position: relative;
+    @media (max-width: 50em) {
+        flex-direction: column;
+    }
+    & > *:first-child {
+        width: 40%;
+        @media (max-width: 530px) {
+            width: 70%;
+        } 
+    }
+
+    .information {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+        .stickers {
+            @media (max-width: 50em) {
+                position: absolute;
+                top: 7%;
+            }
+        }
+       .paragraph {
+        flex-direction: column;
+        gap: .6rem;
+        align-items: flex-start;
+       }
+    }
+}
